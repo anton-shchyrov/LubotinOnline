@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="def_latitude">50</string>
+    <string name="def_longitude">36</string>
+    <string name="def_zoom">17</string>
+</resources>

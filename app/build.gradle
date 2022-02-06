@@ -20,6 +20,16 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+        applicationVariants.all{
+            variant ->
+                variant.outputs.each{
+                    output->
+                        def name = "LubotinOnline.apk"
+                        // on below line we are setting the
+                        // outputFile Name to our apk file.
+                        output.outputFileName = name
+                }
+        }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">LubotinOnline</string>
+    <string name="setting_latitude">latitude</string>
+    <string name="setting_longitude">longitude</string>
+    <string name="setting_zoom">zoom</string>
+    <string name="setting_follow_location">follow_location</string>
+    <string name="location">Location</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
 </resources>
